@@ -13,6 +13,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
 }
 .drumkit .pad {
   display: flex;
@@ -22,4 +23,9 @@ body {
   flex: 1 0 calc(33.333% - 20px);
   background: radial-gradient(#e18174, #d15746);
   border-radius: 10px;
+  cursor: pointer;
+}
+.drumkit .pad img {
+  width: 50%;
+  pointer-events: none;
 }/*# sourceMappingURL=styles.css.map */
