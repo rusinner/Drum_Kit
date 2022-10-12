@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #282828;
+}
+
+.drumkit{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+
+    .pad{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        flex: 1 0 calc(33.333% - 20px);
+        background: radial-gradient(#e18174,#d15746);
+        border-radius: 10px;
+
+    }
+}
